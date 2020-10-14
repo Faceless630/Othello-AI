@@ -1,7 +1,24 @@
 #include "mainloop.h"
 
-const int white = -1, black = 1, blank = 0;
-int board[9][9];
+void turn_decision()
+{
+  //ask for the decsion of which turn
+  std::string decision;
+  std::cout << "Would you like to go first? [Y / N]";
+  std::cin >> decision;
+  if (decision == "Y")
+  {
+    humanturn = true;
+  }
+  else if (decision == "N")
+  {
+    humanturn = false;
+  }
+  else
+  {
+    turn_decision();
+  }
+}
 
 void reset()
 {
@@ -72,10 +89,12 @@ void display()
 void swap_turn()
 {
   //function of swapping turn at the end of each player
-}
-
-int main()
-{
-  reset();
-  display();
+  if (humanturn)
+  {
+    humanturn = false;
+  }
+  else
+  {
+    humanturn = true;
+  }
 }
