@@ -1,0 +1,81 @@
+The system is: Windows - 10.0.18363 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "C:/Users/ken2n/programs/publicrepos/Othello-AI/build/CMakeFiles/3.18.4/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "C:/Users/ken2n/programs/publicrepos/Othello-AI/build/CMakeFiles/3.18.4/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/ken2n/programs/publicrepos/Othello-AI/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_78470/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_78470.dir\build.make CMakeFiles/cmTC_78470.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/ken2n/programs/publicrepos/Othello-AI/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78470.dir/testCCompiler.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_78470.dir\testCCompiler.c.obj -c C:\Users\ken2n\programs\publicrepos\Othello-AI\build\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_78470.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_78470.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_78470.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_78470.dir/objects.a @CMakeFiles\cmTC_78470.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_78470.dir/objects.a -Wl,--no-whole-archive -o cmTC_78470.exe -Wl,--out-implib,libcmTC_78470.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_78470.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/ken2n/programs/publicrepos/Othello-AI/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/ken2n/programs/publicrepos/Othello-AI/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_3fd2c/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_3fd2c.dir\build.make CMakeFiles/cmTC_3fd2c.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/ken2n/programs/publicrepos/Othello-AI/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3fd2c.dir/testCXXCompiler.cxx.obj
+C:\MinGW\bin\g++.exe    -o CMakeFiles\cmTC_3fd2c.dir\testCXXCompiler.cxx.obj -c C:\Users\ken2n\programs\publicrepos\Othello-AI\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_3fd2c.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_3fd2c.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_3fd2c.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_3fd2c.dir/objects.a @CMakeFiles\cmTC_3fd2c.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -Wl,--whole-archive CMakeFiles\cmTC_3fd2c.dir/objects.a -Wl,--no-whole-archive -o cmTC_3fd2c.exe -Wl,--out-implib,libcmTC_3fd2c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_3fd2c.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/ken2n/programs/publicrepos/Othello-AI/build/CMakeFiles/CMakeTmp'
+
+
+

@@ -1,5 +1,19 @@
 #include "mainloop.h"
-
+void reset()
+{
+  //resetting the board
+  for (int x = 0; x <= 8; x++)
+  {
+    for (int y = 0; y <= 8; y++)
+    {
+      board[x][y] = blank;
+    }
+  }
+  board[5][4] = black;
+  board[4][5] = black;
+  board[5][5] = white;
+  board[4][4] = white;
+}
 void turn_decision()
 {
   //ask for the decsion of which turn
@@ -20,22 +34,6 @@ void turn_decision()
   }
 }
 
-void reset()
-{
-  //resetting the board
-  for (int x = 0; x <= 8; x++)
-  {
-    for (int y = 0; y <= 8; y++)
-    {
-      board[x][y] = blank;
-    }
-  }
-  board[5][4] = black;
-  board[4][5] = black;
-  board[5][5] = white;
-  board[4][4] = white;
-}
-
 void display()
 {
   for (int i = 0; i < 9; i++)
@@ -45,10 +43,10 @@ void display()
       switch (board[i][j])
       {
       case white:
-        std::cout << " ●";
+        std::cout << " ○";
         break;
       case black:
-        std::cout << " 〇";
+        std::cout << " ●";
         break;
       default:
         if (i == 0 || j == 0)
@@ -97,4 +95,11 @@ void swap_turn()
   {
     humanturn = true;
   }
+}
+int main()
+{
+  reset();
+  turn_decision();
+  display();
+  return 0;
 }

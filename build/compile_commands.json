@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/ken2n/programs/publicrepos/Othello-AI/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\othello_ai.dir\\src\\mainloop.cpp.obj -c C:\\Users\\ken2n\\programs\\publicrepos\\Othello-AI\\src\\mainloop.cpp",
+  "file": "C:/Users/ken2n/programs/publicrepos/Othello-AI/src/mainloop.cpp"
+}
+]

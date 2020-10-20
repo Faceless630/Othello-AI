@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/ken2n/programs/publicrepos/Othello-AI/src/mainloop.cpp
+mainloop.h
+C:/Users/ken2n/programs/publicrepos/Othello-AI/src/mainloop.h
+
+C:/Users/ken2n/programs/publicrepos/Othello-AI/src/mainloop.h
+iostream
+-
+
